@@ -9,7 +9,7 @@ import time
 
 def push(text):
     # 设置推送的内容
-    push_url = f'https://api.day.app/Ua37yhGwsH7cUVbzhcTpn3/{text}'
+    push_url = f'https://api.day.app/*******/{text}'
 
 
     # 发送 POST 请求
@@ -41,53 +41,7 @@ def csv_remove_duplicates():
     else:
         print("没有足够的文件进行比较。")
 
-#我想要把每次结果合并到一个文件里，然后再进行比对，这样就不会出现重复的情况了
 
-
-# # 获取当前目录下的所有 CSV 文件
-# csv_files = [f for f in os.listdir() if f.endswith('.csv')]
-
-# # 找出字典序最大的文件名
-# if csv_files:
-#     max_file = max(csv_files)
-#     print(f"字典序最大（即文件名最大）的文件是: {max_file}")
-# else:
-#     print("没有找到 CSV 文件。")
-# filename = max_file
-
-# df = pd.read_csv(filename, header=None,encoding='gbk', names=["ID", "Plan", "Date", "Time", "Room"])
-
-# # 要搜索的关键字
-# search_plan = "杜比影院厅（儿童需购票）"
-# search_day = "周一"
-
-# # 查找包含“孤星计划”和“周一”的行
-# result = df[(df["Room"].str.contains(search_plan)) & (df["Date"].str.contains(search_day))]
-
-
-# # 输出查询结果
-# if not result.empty:
-#     print(result)
-#     push("杜比影院上新")
-# else:
-#     print(f"没有找到包含 '{search_plan}' 和 '{search_day}' 的记录")
-
-
-
-# # 要搜索的关键字
-# search_plan = "柯南"
-# search_day = ""
-
-# # 查找包含“孤星计划”和“周一”的行
-# result = df[(df["Plan"].str.contains(search_plan)) & (df["Date"].str.contains(search_day))]
-
-
-# # 输出查询结果
-# if not result.empty:
-#     print(result)
-#     push("柯南上新")
-# else:
-#     print(f"没有找到包含 '{search_plan}' 和 '{search_day}' 的记录")
 
 if __name__ == "__main__":
     diff = csv_remove_duplicates()
