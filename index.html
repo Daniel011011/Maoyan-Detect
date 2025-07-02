@@ -6,6 +6,7 @@
   <title>Movies Calendar</title>
   <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
   <style>
     body { margin: 40px; font-family: Arial, sans-serif; }
     #calendar { max-width: 900px; margin: 0 auto; }
@@ -26,15 +27,29 @@
           center: 'title',
           right: 'dayGridMonth,timeGridWeek'
         },
-        events: {
-          url: 'movies.ics',
-          format: 'ics'
-        },
-        loading: function(isLoading) {
-          console.log(isLoading ? "Loading events..." : "Events loaded.");
-        }
       });
       calendar.render();
+
+      fetch('movies.ics')
+        .then(response => response.text())
+        .then(data => {
+          console.log("ICS fetched, parsing...");
+          const jcalData = ICAL.parse(data);
+          const comp = new ICAL.Component(jcalData);
+          const vevents = comp.getAllSubcomponents('vevent');
+          const events = vevents.map(vevent => {
+            const e = new ICAL.Event(vevent);
+            return {
+              title: e.summary,
+              start: e.startDate.toJSDate(),
+              end: e.endDate ? e.endDate.toJSDate() : e.startDate.toJSDate(),
+              description: e.description
+            };
+          });
+          console.log(`Parsed ${events.length} events`);
+          calendar.addEventSource(events);
+        })
+        .catch(err => console.error("Failed to fetch or parse ics:", err));
     });
   </script>
 </body>
