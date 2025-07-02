@@ -19,15 +19,22 @@
       const calendarEl = document.getElementById('calendar');
       const calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
-        events: {
-          url: 'movies.ics',  // 指向你仓库里的ics文件
-          format: 'ics'
-        },
         headerToolbar: {
           left: 'prev,next today',
           center: 'title',
           right: 'dayGridMonth,timeGridWeek'
         },
+        events: {
+          url: 'movies.ics',
+          format: 'ics'
+        },
+        loading: function(isLoading) {
+          if (isLoading) {
+            console.log("Loading events...");
+          } else {
+            console.log("Events loaded.");
+          }
+        }
       });
       calendar.render();
     });
