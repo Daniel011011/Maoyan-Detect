@@ -36,11 +36,11 @@
         views: {
           listPast1Future3: {
             type: 'list',
-            duration: { days: 4 }, // 过去1天 + 未来3天 = 4天
-            buttonText: '过去1天+未来3天',
+            duration: { days: 5 }, // 过去1天 + 未来3天 = 4天
+            buttonText: '五日视图',
             validRange: function(nowDate) {
               let start = new Date(nowDate.valueOf());
-              start.setDate(start.getDate() - 1);
+              start.setDate(start.getDate() - 2);
               let end = new Date(nowDate.valueOf());
               end.setDate(end.getDate() + 3);
               return { start: start, end: end };
@@ -48,18 +48,18 @@
           },
           listPast1Future7: {
             type: 'list',
-            duration: { days: 8 }, // 过去1天 + 未来7天 = 8天
+            duration: { days: 9 }, // 过去1天 + 未来7天 = 8天
             buttonText: '过去1天+未来7天',
             validRange: function(nowDate) {
               let start = new Date(nowDate.valueOf());
-              start.setDate(start.getDate() - 1);
+              start.setDate(start.getDate() - 2);
               let end = new Date(nowDate.valueOf());
               end.setDate(end.getDate() + 7);
               return { start: start, end: end };
             }
           }
         },
-        initialView: 'dayGridMonth',
+        initialView: 'listPast1Future3',
         initialDate: new Date(),
       });
 
