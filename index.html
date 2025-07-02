@@ -6,6 +6,7 @@
   <title>Movies Calendar</title>
   <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/locales-all.global.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
   <style>
     body { margin: 40px; font-family: Arial, sans-serif; }
@@ -21,35 +22,45 @@
       console.log("Initializing calendar...");
       const calendarEl = document.getElementById('calendar');
       const calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'timeGridWeek',
+        initialView: 'timeGridWeek',   // 你可以改成 dayGridMonth, listWeek 等
+        locale: 'zh-cn',               // 日期中文
+        slotLabelFormat: {             // 24小时制
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false
+        },
         headerToolbar: {
           left: 'prev,next today',
           center: 'title',
-          right: 'dayGridMonth,timeGridWeek'
+          right: 'dayGridMonth,timeGridWeek,listWeek'
         },
       });
       calendar.render();
 
-      fetch('movies.ics')
-        .then(response => response.text())
-        .then(data => {
-          console.log("ICS fetched, parsing...");
-          const jcalData = ICAL.parse(data);
-          const comp = new ICAL.Component(jcalData);
-          const vevents = comp.getAllSubcomponents('vevent');
-          const events = vevents.map(vevent => {
-            const e = new ICAL.Event(vevent);
-            return {
-              title: e.summary,
-              start: e.startDate.toJSDate(),
-              end: e.endDate ? e.endDate.toJSDate() : e.startDate.toJSDate(),
-              description: e.description
-            };
-          });
-          console.log(`Parsed ${events.length} events`);
-          calendar.addEventSource(events);
-        })
-        .catch(err => console.error("Failed to fetch or parse ics:", err));
+      const icsFiles = ['movies.ics'];
+
+      icsFiles.forEach(file => {
+        fetch(file)
+          .then(response => response.text())
+          .then(data => {
+            console.log(`ICS ${file} fetched, parsing...`);
+            const jcalData = ICAL.parse(data);
+            const comp = new ICAL.Component(jcalData);
+            const vevents = comp.getAllSubcomponents('vevent');
+            const events = vevents.map(vevent => {
+              const e = new ICAL.Event(vevent);
+              return {
+                title: e.summary,
+                start: e.startDate.toJSDate(),
+                end: e.endDate ? e.endDate.toJSDate() : e.startDate.toJSDate(),
+                description: e.description
+              };
+            });
+            console.log(`Parsed ${events.length} events from ${file}`);
+            calendar.addEventSource(events);
+          })
+          .catch(err => console.error(`Failed to fetch or parse ${file}:`, err));
+      });
     });
   </script>
 </body>
