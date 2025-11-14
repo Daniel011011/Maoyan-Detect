@@ -7,111 +7,23 @@ DURATION:PT2H
 LOCATION:西安万达影城（高新万达广场杜比影院店）
 DTSTART:20251115T113000Z
 SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:09987376-4e0c-43ea-9262-43ce8e0513a4@0998.org
+UID:fe68a3cd-5c3e-4e3e-a00d-ad8ee913bcd8@fe68.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
 DURATION:PT2H
 LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251116T054000Z
+DTSTART:20251119T023000Z
 SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:0eba3412-1c66-4430-a788-f9e41c81d75e@0eba.org
+UID:c1e451e1-d818-43de-952e-c2d44c14309e@c1e4.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
 DURATION:PT2H
 LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251116T113000Z
+DTSTART:20251119T111500Z
 SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:6d3ebbc1-df0f-44d0-8d48-e23c1b3318d7@6d3e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251115T142500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:aeefde2f-740c-429a-b9ef-8431d0570dae@aeef.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251117T052000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:f5b775e3-45ef-4577-b133-f60477e2fae9@f5b7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251121T024500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:bc61c1e2-21b1-48fa-b8bc-742af2aaaf9c@bc61.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251116T083500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:d345fb9a-d912-4e96-a328-67d0be756726@d345.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251115T024500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:fc1d6460-322b-4317-a0e5-61dcc6057f04@fc1d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251116T024500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:0612c5b4-2b07-461c-b6cb-3a53be31cb1e@0612.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251121T113000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:3ad5cbab-4e4a-4c48-9e46-6c0bc7f87f07@3ad5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251114T083500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:40b0418a-d9ca-4d0e-81ff-85de5ece2ddd@40b0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251117T111000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:ef071064-8efe-4f38-b2a2-58b7207bfade@ef07.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251122T052500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:5f26254a-d83c-41eb-9dd1-47a880753255@5f26.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251122T111500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:cf636fe4-1f4f-42d4-9403-f88221a0429b@cf63.org
+UID:c9c29e67-2971-47f2-82ae-45c24508dc7f@c9c2.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
@@ -119,183 +31,15 @@ DURATION:PT2H
 LOCATION:西安万达影城（高新万达广场杜比影院店）
 DTSTART:20251121T083500Z
 SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:ca1f1fa8-81dd-457a-8889-018b953dd6cb@ca1f.org
+UID:b94725ad-25e2-4145-a2bd-d3752267a9fa@b947.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
 DURATION:PT2H
 LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251117T081500Z
+DTSTART:20251118T141000Z
 SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:2488c101-7223-4783-a446-ec96a4f6b794@2488.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251117T022500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:bd6ac097-4677-47e9-aefd-41b77148b2e8@bd6a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251114T024500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:9865930c-7d85-4ed9-aaba-d01ce1f1c07c@9865.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251115T054000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:ff35e759-502e-482e-9798-1a304b9dbf2d@ff35.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251122T023000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:eaa98780-f65e-4ae3-99e5-789ba60e58f2@eaa9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251112T161000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:d5dddfaa-11f8-4446-9543-51cacf84ddb5@d5dd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251123T082000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:d412d4d1-0ea2-4bf0-836f-9940b1db8286@d412.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251114T054000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:1f513526-cc38-4ac0-8523-2fe0ebdbac31@1f51.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251122T082000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:164c4e7f-c05f-4214-ac06-8398a68bb59a@164c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251115T083500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:d2c496f0-a973-43bc-ae28-e88eb0963c18@d2c4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251123T052500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:4dcf96e2-fa62-4c6e-9924-f1877977d732@4dcf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251122T141000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:d2eea422-0bab-4ef1-a511-af7ef044d263@d2ee.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251121T142500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:93524626-55ef-4f21-8984-38a5c57eb4ff@9352.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251123T111500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:b2cb6d05-771e-4f30-8c89-4b141d9ee223@b2cb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251116T142500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:be841b24-e170-4046-83fb-4f5251a38f48@be84.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251117T140500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:60e77697-10c7-4597-834b-62ba95013588@60e7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251114T142500Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:1269a4a2-4592-4997-84ba-5e5bc92ad6b1@1269.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251113T091000Z
-SUMMARY:铁血战士：杀戮之地（杜比影院厅（儿童需购票））
-UID:f30b8d64-d80e-484d-989f-7adbcbce04c8@f30b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251123T023000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:dbba72e5-8630-4627-85ef-2f0324477608@dbba.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251113T112000Z
-SUMMARY:铁血战士：杀戮之地（杜比影院厅（儿童需购票））
-UID:0111b6b4-2770-49d9-bb59-be4b19f8fbfd@0111.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251113T133000Z
-SUMMARY:铁血战士：杀戮之地（杜比影院厅（儿童需购票））
-UID:a471ec6a-57e4-4f64-89b8-96ecca6e1528@a471.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
-DURATION:PT2H
-LOCATION:西安万达影城（高新万达广场杜比影院店）
-DTSTART:20251121T054000Z
-SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:55353336-3261-4e37-ac93-c904bb29a21b@5535.org
+UID:74c4ea7e-49da-40d2-8a1a-0be6048b639f@74c4.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
@@ -303,6 +47,310 @@ DURATION:PT2H
 LOCATION:西安万达影城（高新万达广场杜比影院店）
 DTSTART:20251123T141000Z
 SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
-UID:05f5d351-5883-4cd7-98bb-ae44e11af548@05f5.org
+UID:a825ffbc-5b2c-4ed8-981e-5037bb158630@a825.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251114T054000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:c4c6c82f-26a8-47df-a377-1ddcc1f66091@c4c6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251122T052500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:bc8978aa-a727-4312-97fe-32a371346a63@bc89.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251122T023000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:92fcb779-3468-444c-a85d-e5f82976b3d2@92fc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251116T142500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:5da3983a-9fa0-4573-9335-24e9682d62e2@5da3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251119T052500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:76710cb3-865f-4493-8c7e-bc171911c23a@7671.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251123T111500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:121451b9-ec1f-4b62-b7bd-8d470670bd7a@1214.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251122T082000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:9c28af60-94f6-4bcc-809d-040a7fc68dff@9c28.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251118T023000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:4b387e93-970a-4569-a544-933cd0c86606@4b38.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251114T083500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:f7878d35-999e-420b-87eb-397698622f17@f787.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251117T052000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:8112233a-5d1c-437f-b597-dde2b3d5544d@8112.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251122T141000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:b0ad48fd-148f-490d-b44c-cb8000d936e4@b0ad.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251116T024500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:b40b752f-37d7-45da-8ff7-62570a59dda1@b40b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251121T113000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:7116c57e-b2db-4f7a-ad44-f3830492307a@7116.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251123T082000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:3c1bb7ed-4d39-4f59-bb9c-876ee65749ee@3c1b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251114T142500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:bbda5fa7-db12-413d-ad82-7609d560d00d@bbda.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251121T024500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:7bdaf4d1-389c-4e0b-bbee-b61e5ca2b57e@7bda.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251118T082000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:43656e47-573e-4839-8493-34fa39cfec71@4365.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251117T111000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:9fddf53f-801f-4844-8a32-5840491a37ad@9fdd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251116T083500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:2ae37efe-b17a-481b-a355-6db1723f0d03@2ae3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251123T052500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:c744c34c-b702-4f40-8e1c-de1f7154d575@c744.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251117T022500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:8b84fce8-7562-400a-a816-a90beb9c1f10@8b84.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251117T081500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:3027528d-2295-4204-b66e-dc9156eb8faf@3027.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251121T142500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:9bc26cf5-928d-4e45-bee4-fe5059616a57@9bc2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251117T140500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:e91639ea-9cd8-47d8-867f-bb4bcfc4b1c7@e916.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251121T054000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:1464bc59-d124-4b7a-9b29-df16b80706cb@1464.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251122T111500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:431d7457-caf6-4927-9698-73b60d02780f@431d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251123T023000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:baf22d31-2340-4778-ade2-5745506ee20b@baf2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251118T052500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:e4c69bd9-e322-4162-ba9b-92c45c6fad38@e4c6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251115T054000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:f8c1053d-f3fb-482a-b9ed-9c1c7d114af5@f8c1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251115T142500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:de5161e9-ebcc-4c5b-b2ec-07e11c5ec10f@de51.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251116T054000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:bbb40256-b022-4a97-a6e1-d71446b624a5@bbb4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251115T083500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:415bfac2-36a7-4784-8ec5-b0161ad58c05@415b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251119T082000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:9818d81d-f783-4acf-a994-244c0c79de62@9818.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251115T024500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:09235836-1327-42ab-a36b-f43a6b538bc3@0923.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251118T111500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:21246f51-01c5-4b07-b3e9-c91b2e300957@2124.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251116T113000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:9ebcf699-1aba-4310-9548-dbec01988e9b@9ebc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251119T141000Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:f0e4d6df-0f6d-46d1-ae3e-0bdde3f718b2@f0e4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 - 杜比影院厅（儿童需购票）
+DURATION:PT2H
+LOCATION:西安万达影城（高新万达广场杜比影院店）
+DTSTART:20251114T024500Z
+SUMMARY:鬼灭之刃：无限城篇 第一章 猗窝座再袭（杜比影院厅（儿童需购票））
+UID:e1cd8ee0-707f-4436-b232-f2e13129dc0d@e1cd.org
 END:VEVENT
 END:VCALENDAR
