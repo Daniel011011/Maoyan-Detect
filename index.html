@@ -9,16 +9,73 @@
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/locales-all.global.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
   <style>
-    body { margin: 40px; font-family: Arial, sans-serif; }
-    #calendar { max-width: 900px; margin: 0 auto; }
+    body { 
+      margin: 40px; 
+      font-family: Arial, sans-serif; 
+    }
+
+    #calendar { 
+      max-width: 900px; 
+      margin: 0 auto; 
+    }
+
+    /* 跳转按钮容器 */
+    #maoyan-link {
+      max-width: 900px;
+      margin: 8px auto 20px;
+      display: flex;
+      flex-wrap: wrap;       /* 手机端可换行 */
+      gap: 10px;
+      justify-content: flex-start;
+    }
+
+    #maoyan-link button {
+      padding: 6px 12px;
+      border: none;
+      background: #ff5a5f;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      white-space: nowrap;   /* 避免按钮文本换行 */
+    }
+
+    /* FullCalendar 顶部按钮和标题 */
+    .fc .fc-toolbar-chunk > * {
+      white-space: nowrap;   /* 避免标题、Today、prev/next按钮换行 */
+    }
+
+    .fc .fc-toolbar-title {
+      font-weight: bold;
+    }
+
+    /* 手机模式下 */
+    @media (max-width: 600px) {
+      #maoyan-link {
+        flex-direction: column;   /* 按钮垂直排列 */
+        align-items: stretch;
+      }
+
+      #maoyan-link button {
+        width: 100%;              /* 占满一行 */
+        text-align: center;
+      }
+
+      .fc .fc-toolbar-chunk {
+        display: flex;
+        flex-wrap: wrap;          /* 顶部控件可以换行 */
+        justify-content: center;
+        gap: 5px;
+      }
+    }
   </style>
 </head>
 <body>
   <h2>🎬 Movie Calendar</h2>
-  <!-- 只保留跳转按钮，去掉输入框 -->
-  <div id="maoyan-link" style="max-width:900px;margin:8px auto 20px;display:flex;justify-content:flex-start;">
-    <button id="maoyanBtn" style="padding:6px 12px;border:none;background:#ff5a5f;color:white;border-radius:4px;cursor:pointer;">前往猫眼查看</button>
+
+  <div id="maoyan-link">
+    <button id="maoyanBtn">前往猫眼</button>
   </div>
+
   <div id="calendar"></div>
 
   <script>
@@ -35,12 +92,12 @@
         headerToolbar: {
           left: 'prev,next today',
           center: 'title',
-          right: 'dayGridMonth,timeGridWeek,listPast1Future3,listPast1Future7,listWeek'
+          right: 'listPast1Future3,listPast1Future7,listWeek'
         },
         views: {
           listPast1Future3: {
             type: 'list',
-            duration: { days: 5 }, // 过去1天 + 未来3天 = 4天
+            duration: { days: 5 },
             buttonText: '五日视图',
             validRange: function(nowDate) {
               let start = new Date(nowDate.valueOf());
@@ -52,8 +109,8 @@
           },
           listPast1Future7: {
             type: 'list',
-            duration: { days: 9 }, // 过去1天 + 未来7天 = 8天
-            buttonText: '过去1天+未来7天',
+            duration: { days: 9 },
+            buttonText: '近1天+未来7天', // 简短文本
             validRange: function(nowDate) {
               let start = new Date(nowDate.valueOf());
               start.setDate(start.getDate() - 2);
@@ -69,12 +126,10 @@
 
       calendar.render();
 
-      // 只跳转到影院ID为24311的猫眼页面
       document.getElementById('maoyanBtn').addEventListener('click', function() {
         window.open('https://www.maoyan.com/cinema/24311', '_blank');
       });
 
-      // 加载ics事件文件
       const icsFiles = ['movies.ics'];
       icsFiles.forEach(file => {
         fetch(file)
