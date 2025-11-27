@@ -15,6 +15,10 @@
 </head>
 <body>
   <h2>🎬 Movie Calendar</h2>
+  <!-- 只保留跳转按钮，去掉输入框 -->
+  <div id="maoyan-link" style="max-width:900px;margin:8px auto 20px;display:flex;justify-content:flex-start;">
+    <button id="maoyanBtn" style="padding:6px 12px;border:none;background:#ff5a5f;color:white;border-radius:4px;cursor:pointer;">前往猫眼查看</button>
+  </div>
   <div id="calendar"></div>
 
   <script>
@@ -64,6 +68,11 @@
       });
 
       calendar.render();
+
+      // 只跳转到影院ID为24311的猫眼页面
+      document.getElementById('maoyanBtn').addEventListener('click', function() {
+        window.open('https://www.maoyan.com/cinema/24311', '_blank');
+      });
 
       // 加载ics事件文件
       const icsFiles = ['movies.ics'];
