@@ -91,7 +91,7 @@ def generate_ics(movie_list, filename="movies.ics"):
         try:
             # 解析日期时间
             date_str = date_str.replace("月", "-").replace("日", "")
-            dt = datetime.strptime(f"2025-{date_str} {time_str}", "%Y-%m-%d %H:%M")
+            dt = datetime.strptime(f"2026-{date_str} {time_str}", "%Y-%m-%d %H:%M")
             dt = dt.replace(tzinfo=tz)
 
             # 创建日历事件
