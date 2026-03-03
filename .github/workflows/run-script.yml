@@ -1,10 +1,9 @@
-
 name: Daily Run Script
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天0点UTC运行
-  workflow_dispatch:      # 也允许手动触发
+    - cron: '0 0 * * *'  # 每天北京时间 08:00 运行 (UTC 0:00)
+  workflow_dispatch:      # 允许手动点击运行
 
 jobs:
   run-script:
@@ -23,9 +22,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests lxml ics
+        # 显式安装兼容版本的 tatsu 以修复 ImportError
+        pip install "tatsu<5.0.0"
+        pip install requests lxml ics 
 
     - name: Run Python script
+      env:
+        TZ: Asia/Shanghai
       run: python run3.py
 
     - name: Commit generated movies.ics
@@ -33,5 +36,6 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add movies.ics
+        # 即使文件没变化也不会报错导致 Workflow 失败
         git commit -m "Update movies.ics [skip ci]" || echo "No changes to commit"
         git push
