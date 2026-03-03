@@ -17,17 +17,17 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        # 改用 3.10 版本，彻底避开 Python 3.12 对旧库的不兼容问题
+        # 必须用 3.10，因为 3.12 彻底删除了旧版 tatsu 依赖的底层接口
         python-version: '3.10'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # 在 Python 3.10 下，这两个版本可以完美配合
-        pip install requests lxml ics
+        # 这里的版本号是根据 2月17日前“最后稳定期”确定的
+        pip install requests==2.31.0
+        pip install lxml==5.1.0
         pip install "tatsu==4.4.0"
-        pip install "ics==0.7"
-        
+        pip install "ics==0.7.2"
 
     - name: Run Python script
       env:
