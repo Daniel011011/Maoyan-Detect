@@ -17,8 +17,8 @@ import os
 import requests
 from lxml import etree
 # ==== 配置区域 ====
-cinema_ids = ["1037"]  # 影院代号列表
-keywords = ["IMAX"]    # 筛选影厅关键词
+cinema_ids = ["24311"]  # 影院代号列表
+keywords = ["杜比影院"]    # 筛选影厅关键词
 ics_filename = "movies.ics"  # 导出的 ICS 文件名
 # ==================
 
@@ -123,5 +123,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
