@@ -1,13 +1,17 @@
+import collections
+if not hasattr(collections, 'Mapping'):
+    # 在 Python 3.10+ 中，Mapping 在 collections.abc 中，把它挂回到 collections 上
+    import collections.abc
+    collections.Mapping = collections.abc.Mapping
+
+# 下面开始正常导入第三方库
 import requests
 from lxml import etree
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from ics import Calendar, Event
 import os
-import collections
-if not hasattr(collections, 'Mapping'):
-    import collections.abc
-    collections.Mapping = collections.abc.Mapping
+
 # ==========================================================
 
 import requests
@@ -119,4 +123,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
