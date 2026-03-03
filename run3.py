@@ -4,7 +4,14 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from ics import Calendar, Event
 import os
+import collections
+if not hasattr(collections, 'Mapping'):
+    import collections.abc
+    collections.Mapping = collections.abc.Mapping
+# ==========================================================
 
+import requests
+from lxml import etree
 # ==== 配置区域 ====
 cinema_ids = ["1037"]  # 影院代号列表
 keywords = ["IMAX"]    # 筛选影厅关键词
@@ -112,3 +119,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
