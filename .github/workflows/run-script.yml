@@ -24,8 +24,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         # 在 Python 3.10 下，这两个版本可以完美配合
-        pip install "tatsu<5.0.0"
         pip install requests lxml ics
+        pip install "tatsu==4.4.0"
+        pip install "ics==0.7"
+        
 
     - name: Run Python script
       env:
