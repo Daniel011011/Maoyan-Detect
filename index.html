@@ -193,7 +193,7 @@
     const WEEKDAYS = ['周日','周一','周二','周三','周四','周五','周六'];
 
     document.addEventListener('DOMContentLoaded', function() {
-      fetch('movies.ics')
+      fetch('movies.ics?t=' + Date.now())
         .then(r => r.text())
         .then(data => {
           const jcalData = ICAL.parse(data);
@@ -203,7 +203,7 @@
           const all = vevents.map(ve => {
             const e = new ICAL.Event(ve);
             const s = e.summary || '';
-            const m = s.match(/^(.+?)（(.+?)）$/);
+            const m = s.match(/^(.+?)（(.+)）$/);
             const start = e.startDate.toJSDate();
             return {
               movie: m ? m[1] : s,
