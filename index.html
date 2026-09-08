@@ -18,6 +18,7 @@
       --border: #2a2a3a;
       --dolby: #00cec9;
       --dolby-bg: rgba(0, 206, 201, 0.08);
+      --err: #ff6b6b;
     }
 
     body {
@@ -47,12 +48,7 @@
       justify-content: space-between;
     }
 
-    .header h1 {
-      font-size: 18px;
-      font-weight: 600;
-      letter-spacing: -0.3px;
-    }
-
+    .header h1 { font-size: 18px; font-weight: 600; }
     .header h1 span { color: var(--dolby); }
 
     .header-btn {
@@ -72,36 +68,12 @@
       padding: 16px 16px 40px;
     }
 
-    .loading {
-      text-align: center;
-      padding: 60px 20px;
-      color: var(--text-dim);
-      font-size: 14px;
-    }
-
-    .loading::after {
-      content: "";
-      display: block;
-      width: 24px;
-      height: 24px;
-      margin: 16px auto 0;
-      border: 2px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-    }
-
-    @keyframes spin { to { transform: rotate(360deg); } }
-
-    .day-block {
-      margin-bottom: 28px;
-    }
+    .day-block { margin-bottom: 28px; }
 
     .day-label {
       font-size: 20px;
       font-weight: 700;
       padding: 4px 0 14px;
-      letter-spacing: -0.3px;
     }
 
     .day-label .weekday {
@@ -131,17 +103,9 @@
       padding: 16px;
     }
 
-    .movie-name {
-      font-size: 17px;
-      font-weight: 600;
-      margin-bottom: 12px;
-    }
+    .movie-name { font-size: 17px; font-weight: 600; margin-bottom: 12px; }
 
-    .time-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
+    .time-grid { display: flex; flex-wrap: wrap; gap: 8px; }
 
     .time-chip {
       background: var(--dolby-bg);
@@ -154,13 +118,29 @@
       font-variant-numeric: tabular-nums;
     }
 
-    .empty {
+    .state {
       text-align: center;
-      padding: 80px 20px;
+      padding: 60px 20px;
       color: var(--text-dim);
+      font-size: 14px;
     }
 
-    .empty .icon { font-size: 48px; margin-bottom: 16px; }
+    .state.loading::after {
+      content: "";
+      display: block;
+      width: 24px;
+      height: 24px;
+      margin: 16px auto 0;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .state.error { color: var(--err); text-align: left; font-size: 13px; }
+    .state.error pre { margin-top: 12px; white-space: pre-wrap; word-break: break-all; color: var(--text-dim); }
 
     .footer {
       text-align: center;
@@ -184,7 +164,7 @@
   </header>
 
   <main class="container" id="app">
-    <div class="loading">加载中</div>
+    <div class="state loading">加载中</div>
   </main>
 
   <footer class="footer">西安万达影城 · 高新万达广场店</footer>
@@ -192,76 +172,59 @@
   <script>
     const WEEKDAYS = ['周日','周一','周二','周三','周四','周五','周六'];
 
-    document.addEventListener('DOMContentLoaded', function() {
-      fetch('movies.ics?t=' + Date.now())
-        .then(r => r.text())
-        .then(data => {
-          const jcalData = ICAL.parse(data);
-          const comp = new ICAL.Component(jcalData);
-          const vevents = comp.getAllSubcomponents('vevent');
-
-          const all = vevents.map(ve => {
-            const e = new ICAL.Event(ve);
-            const s = e.summary || '';
-            const m = s.match(/^(.+?)（(.+)）$/);
-            const start = e.startDate.toJSDate();
-            return {
-              movie: m ? m[1] : s,
-              start: start
-            };
-          });
-
-          all.sort((a, b) => a.start - b.start);
-          render(all);
-        })
-        .catch(() => {
-          document.getElementById('app').innerHTML =
-            '<div class="empty"><div class="icon">!</div><p>加载失败，刷新试试</p></div>';
-        });
-    });
+    function showError(msg, detail) {
+      document.getElementById('app').innerHTML =
+        '<div class="state error">' + msg +
+        (detail ? '<pre>' + detail + '</pre>' : '') + '</div>';
+    }
 
     function render(list) {
-      const app = document.getElementById('app');
+      var app = document.getElementById('app');
       if (!list.length) {
-        app.innerHTML = '<div class="empty"><div class="icon">-</div><p>暂无排片</p></div>';
+        app.innerHTML = '<div class="state">暂无排片</div>';
         return;
       }
 
-      const today = new Date(); today.setHours(0,0,0,0);
+      var today = new Date();
+      today.setHours(0, 0, 0, 0);
 
-      const byDay = {};
-      list.forEach(item => {
-        const d = item.start;
-        const key = d.toDateString();
+      var byDay = {};
+      list.forEach(function(item) {
+        var d = item.start;
+        var key = d.getFullYear() + '-' + (d.getMonth()+1) + '-' + d.getDate();
         if (!byDay[key]) byDay[key] = { date: d, movies: {} };
         if (!byDay[key].movies[item.movie]) byDay[key].movies[item.movie] = [];
         byDay[key].movies[item.movie].push(d);
       });
 
-      let html = '';
-      Object.values(byDay).forEach(day => {
-        const d = day.date;
-        const m = d.getMonth() + 1;
-        const dd = d.getDate();
-        const wd = WEEKDAYS[d.getDay()];
-        const diff = Math.round((d - today) / 86400000);
+      var html = '';
+      Object.keys(byDay).sort(function(a,b){ return byDay[a].date - byDay[b].date; }).forEach(function(key) {
+        var day = byDay[key];
+        var d = day.date;
+        var m = d.getMonth() + 1;
+        var dd = d.getDate();
+        var wd = WEEKDAYS[d.getDay()];
+        var diff = Math.round((d - today) / 86400000);
 
-        let tag = '';
+        var tag = '';
         if (diff === 0) tag = '<span class="tag today">今天</span>';
         else if (diff === 1) tag = '<span class="tag tomorrow">明天</span>';
 
         html += '<div class="day-block">';
-        html += `<div class="day-label">${m}月${dd}日<span class="weekday">${wd}</span>${tag}</div>`;
+        html += '<div class="day-label">' + m + '月' + dd + '日<span class="weekday">' + wd + '</span>' + tag + '</div>';
 
-        Object.entries(day.movies).forEach(([name, times]) => {
-          times.sort((a, b) => a - b);
+        var movieNames = Object.keys(day.movies).sort(function(a,b){
+          return day.movies[a][0] - day.movies[b][0];
+        });
+        movieNames.forEach(function(name) {
+          var times = day.movies[name].sort(function(a,b){ return a - b; });
           html += '<div class="movie-block">';
-          html += `<div class="movie-name">${name}</div>`;
+          html += '<div class="movie-name">' + name + '</div>';
           html += '<div class="time-grid">';
-          times.forEach(t => {
-            const hh = String(t.getHours()).padStart(2, '0');
-            const mm = String(t.getMinutes()).padStart(2, '0');
-            html += `<div class="time-chip">${hh}:${mm}</div>`;
+          times.forEach(function(t) {
+            var hh = String(t.getHours()).padStart(2, '0');
+            var mm = String(t.getMinutes()).padStart(2, '0');
+            html += '<div class="time-chip">' + hh + ':' + mm + '</div>';
           });
           html += '</div></div>';
         });
@@ -271,6 +234,39 @@
 
       app.innerHTML = html;
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('movies.ics?t=' + Date.now())
+        .then(function(r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.text();
+        })
+        .then(function(data) {
+          try {
+            var jcalData = ICAL.parse(data);
+            var comp = new ICAL.Component(jcalData);
+            var vevents = comp.getAllSubcomponents('vevent');
+
+            var all = vevents.map(function(ve) {
+              var e = new ICAL.Event(ve);
+              var s = e.summary || '';
+              var m = s.match(/^(.+?)（(.+)）$/);
+              return {
+                movie: m ? m[1] : s,
+                start: e.startDate.toJSDate()
+              };
+            });
+
+            all.sort(function(a, b) { return a.start - b.start; });
+            render(all);
+          } catch (err) {
+            showError('ICS 解析失败', err.message + '\n\n原始数据前200字:\n' + data.substring(0, 200));
+          }
+        })
+        .catch(function(err) {
+          showError('加载失败: ' + err.message);
+        });
+    });
   </script>
 </body>
 </html>

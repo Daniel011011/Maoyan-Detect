@@ -1,84 +1,84 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260908T105000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:0db44b78-4d6b-4dc3-80a0-c7bc36fe9205@0db4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260909T115000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:4b837059-c0c1-423b-a04c-d686f4e2223e@4b83.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260909T053000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:37ae829a-9855-4d3c-8e68-f664d1a42eb0@37ae.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260908T074000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:6f5b6ea6-643c-4b7c-bee3-10304a76ba9a@6f5b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260909T022000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:821e93e8-f8ce-487a-bd73-7d5543863c4f@821e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260909T084000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:bb4d5707-6acb-4c5f-8f68-b0548562e9a6@bb4d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260911T123000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:866001be-7361-4647-a4c6-a09127e5a42f@8660.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260911T091500Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:aa51421f-235f-48a5-8e71-3dafd7016756@aa51.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260908T140000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:c5fa9cf3-07f3-4d74-9a11-94225b2d0f2f@c5fa.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260908T050000Z
-SUMMARY:蜘蛛侠：崭新之日（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:f5df1029-8ccf-423d-880b-8ba290894e85@f5df.org
-END:VEVENT
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260909T022000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:2b04435e-c323-4b55-bf18-2db2eba49890@2b04.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260911T091500Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:d7dc5d24-9573-4c77-880c-afe5fb7fea83@d7dc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260909T084000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:852a839a-c520-4ee6-b025-d643f2709fbc@852a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260908T050000Z
+SUMMARY:蜘蛛侠：崭新之日（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:16ef2a7d-c80e-4a8b-a5c7-f3d917f4bf41@16ef.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260908T140000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:740bce6e-ffca-4e71-bb73-0d4cea2cc1bf@740b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260909T115000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:8c337788-c420-46f0-b5cc-c19456c9fa14@8c33.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260908T074000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:b58e2923-4cdb-43ba-bb3b-4a59c2dde1d4@b58e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260909T053000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:5e77f1e9-815b-41ea-8eec-0cf989a2ec12@5e77.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260908T105000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:c1a529f3-a3d6-440c-9b71-f7bcc33eb168@c1a5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260911T123000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:bf8a8acf-3c16-468a-b0d8-340c424eef2e@bf8a.org
+END:VEVENT
 END:VCALENDAR

@@ -63,8 +63,9 @@ def generate_ics(movie_list, filename="movies.ics"):
         except Exception as e:
             print(f"[WARN] 跳过错误行: {row}，原因: {e}")
 
-    with open(filename, "w", encoding="utf-8") as f:
-        f.writelines(calendar)
+    ics_content = calendar.serialize()
+    with open(filename, "w", encoding="utf-8", newline="\n") as f:
+        f.write(ics_content)
     print(f"[ICS] ICS 文件已保存为：{filename}")
 
 def main():
