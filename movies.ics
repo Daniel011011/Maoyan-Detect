@@ -5,49 +5,33 @@ BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
 DURATION:PT2H30M
 LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260918T141000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:2d27b81d-0d01-41d5-acc3-82f0234e652b@2d27.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260918T110000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:b16c1d69-3ff1-4c31-ad5a-f0943c89d8d9@b16c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260918T075000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:4601fb21-1fea-4201-a093-8f2d5ed3455f@4601.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260919T110000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:8bd2fc11-617b-446d-8c7b-9a74485b5479@8bd2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
-DURATION:PT2H30M
-LOCATION:西安万达影城（高新万达广场店）
 DTSTART:20260919T075000Z
 SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:746b80ab-66c0-4fc8-8a40-4ef3f33fd62a@746b.org
+UID:21c2e3db-de47-4016-8a4c-39712bbc856a@21c2.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
 DURATION:PT2H30M
 LOCATION:西安万达影城（高新万达广场店）
-DTSTART:20260919T141000Z
-SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:5f7533e8-f580-419a-b033-914038d3aa40@5f75.org
+DTSTART:20260920T141000Z
+SUMMARY:蜘蛛侠：崭新之日（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:00b66491-96cd-4455-804c-82bfab1a0c2b@00b6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260925T145500Z
+SUMMARY:复仇者联盟4：终局之战（加码臻享版）（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:b7279564-2ea9-4af1-8682-3b45651ed37c@b727.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260920T050000Z
+SUMMARY:蜘蛛侠：崭新之日（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:08bcff68-65b7-4fb9-9219-3b32e36cffd6@08bc.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
@@ -55,7 +39,47 @@ DURATION:PT2H30M
 LOCATION:西安万达影城（高新万达广场店）
 DTSTART:20260919T051000Z
 SUMMARY:蜘蛛侠：崭新之日（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:f533e3fa-795d-4594-920e-188b23d0653e@f533.org
+UID:aa36e433-ee74-43e9-9c19-770a1a3dee70@aa36.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260920T110000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:19509ba8-cba5-4eae-86b4-cc59d770755c@1950.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260919T141000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:b44471af-f5ba-403e-ad7b-1cfca39093e8@b444.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260919T110000Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:02873a46-d2e1-4b0f-9724-1f62c74ed2c2@0287.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260925T080500Z
+SUMMARY:复仇者联盟4：终局之战（加码臻享版）（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:fab81040-a8ba-4421-949f-365f2c2cbb90@fab8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260925T113000Z
+SUMMARY:复仇者联盟4：终局之战（加码臻享版）（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:eba670a6-2263-48d1-bfd8-7499b2e1171a@eba6.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
@@ -63,6 +87,38 @@ DURATION:PT2H30M
 LOCATION:西安万达影城（高新万达广场店）
 DTSTART:20260919T020000Z
 SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
-UID:35b9f484-a307-4b2f-a75d-f79e68657db5@35b9.org
+UID:118d2c62-c258-420a-b13f-716debe0d324@118d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260920T074500Z
+SUMMARY:奥德赛（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:d1a5548a-f79f-452e-8b77-a3353f098bd4@d1a5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260923T161000Z
+SUMMARY:复仇者联盟4：终局之战（加码臻享版）（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:1560683e-a88a-4c90-bc62-be4d76efd617@1560.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260925T011500Z
+SUMMARY:复仇者联盟4：终局之战（加码臻享版）（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:32d7ba18-1e6a-4ef8-8d54-d2a00440793f@32d7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:影院ID: 24311 | 影厅: 杜比影院厅（儿童需购票）-凭票享免费停车2H
+DURATION:PT2H30M
+LOCATION:西安万达影城（高新万达广场店）
+DTSTART:20260925T044000Z
+SUMMARY:复仇者联盟4：终局之战（加码臻享版）（杜比影院厅（儿童需购票）-凭票享免费停车2H）
+UID:365fbcb6-6e38-4f8a-b9f9-9daadb5389c5@365f.org
 END:VEVENT
 END:VCALENDAR
