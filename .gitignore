@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+bark_url.txt
+.cinema-state.json
+.cinema-state.json.tmp
+_site/
+.preview/

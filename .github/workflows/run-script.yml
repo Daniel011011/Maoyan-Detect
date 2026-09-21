@@ -1,39 +1,61 @@
-name: Daily Run Script
+name: Update cinema schedules
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天北京时间 08:00
-  workflow_dispatch:      
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['cinema_monitor.py', 'run3.py', 'index.html', 'app.js', '.github/workflows/run-script.yml']
+
+concurrency:
+  group: cinema-schedules
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  run-script:
+  update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
-
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests==2.31.0
-        pip install "ics==0.7.2"
-
-    - name: Run Python script
-      env:
-        TZ: Asia/Shanghai
-      run: python run3.py
-
-    - name: Commit generated movies.ics
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add movies.ics
-        git commit -m "Update movies.ics [skip ci]" || echo "No changes to commit"
-        git push
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test monitor
+        run: python -m unittest discover -s tests -v
+      - name: Fetch both cinemas (web only, no notifications)
+        id: monitor
+        continue-on-error: true
+        run: python run3.py
+      - name: Persist public schedules and fetch cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add movies.ics schedules.json .web-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update both cinema schedules [skip ci]"
+            git push
+          fi
+      - name: Prepare public files
+        run: |
+          mkdir -p _site
+          cp index.html app.js schedules.json movies.ics _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy webpage
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report collection failures
+        if: steps.monitor.outcome == 'failure'
+        run: |
+          echo '::error::Some cinema requests failed. Previous schedules were retained; collection will retry on the next run.'
+          exit 1
