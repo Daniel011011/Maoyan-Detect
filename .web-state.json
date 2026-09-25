@@ -4,17 +4,6 @@
     "24311": {
       "slots": [
         {
-          "key": "f9fa50a9215efcba2b1ad4e4",
-          "cinema_id": "24311",
-          "movie": "复仇者联盟4：终局之战（加码臻享版）",
-          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
-          "date": "2026-09-25",
-          "time": "16:05",
-          "start": "2026-09-25T16:05:00+08:00",
-          "duration": 186,
-          "bookable": true
-        },
-        {
           "key": "6be2a62cdf803021a955fca4",
           "cinema_id": "24311",
           "movie": "复仇者联盟4：终局之战（加码臻享版）",
@@ -169,7 +158,7 @@
           "bookable": true
         }
       ],
-      "updated_at": "2026-09-25T13:11:25.996320+08:00",
+      "updated_at": "2026-09-25T18:23:21.754975+08:00",
       "error": null,
       "seen": {
         "3155b33c60aed438abe31e83": "2026-09-25",
@@ -195,17 +184,6 @@
     },
     "39869": {
       "slots": [
-        {
-          "key": "c533dd005397925f7d0ffe37",
-          "cinema_id": "39869",
-          "movie": "复仇者联盟4：终局之战（加码臻享版）",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-09-25",
-          "time": "16:10",
-          "start": "2026-09-25T16:10:00+08:00",
-          "duration": 186,
-          "bookable": true
-        },
         {
           "key": "b5dd4a056db8c4f59d8c40fc",
           "cinema_id": "39869",
@@ -284,6 +262,61 @@
           "bookable": true
         },
         {
+          "key": "900bfde276ee225b87a6afc7",
+          "cinema_id": "39869",
+          "movie": "复仇者联盟4：终局之战（加码臻享版）",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-09-27",
+          "time": "09:40",
+          "start": "2026-09-27T09:40:00+08:00",
+          "duration": 186,
+          "bookable": true
+        },
+        {
+          "key": "ace7ff68a22f49e4c193fb24",
+          "cinema_id": "39869",
+          "movie": "奥德赛",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-09-27",
+          "time": "13:05",
+          "start": "2026-09-27T13:05:00+08:00",
+          "duration": 172,
+          "bookable": true
+        },
+        {
+          "key": "5624dc168c7024c278fabb8f",
+          "cinema_id": "39869",
+          "movie": "复仇者联盟4：终局之战（加码臻享版）",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-09-27",
+          "time": "16:15",
+          "start": "2026-09-27T16:15:00+08:00",
+          "duration": 186,
+          "bookable": true
+        },
+        {
+          "key": "d0653b78046a6dedb37d23bd",
+          "cinema_id": "39869",
+          "movie": "奥德赛",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-09-27",
+          "time": "19:40",
+          "start": "2026-09-27T19:40:00+08:00",
+          "duration": 172,
+          "bookable": true
+        },
+        {
+          "key": "ecf3eeadca93dffa62d40814",
+          "cinema_id": "39869",
+          "movie": "复仇者联盟4：终局之战（加码臻享版）",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-09-27",
+          "time": "22:50",
+          "start": "2026-09-27T22:50:00+08:00",
+          "duration": 186,
+          "bookable": true
+        },
+        {
           "key": "050f1974ca20dad76434364f",
           "cinema_id": "39869",
           "movie": "复仇者联盟4：终局之战（加码臻享版）",
@@ -350,7 +383,7 @@
           "bookable": true
         }
       ],
-      "updated_at": "2026-09-25T13:11:27.729420+08:00",
+      "updated_at": "2026-09-25T18:23:23.466519+08:00",
       "error": null,
       "seen": {
         "b473722f6892308406e677ce": "2026-09-25",
@@ -369,7 +402,12 @@
         "9fb5adffbc22d11d5805563b": "2026-10-05",
         "0ad379f532565334b7732547": "2026-10-05",
         "95b0a2c5540a192b93deb655": "2026-10-05",
-        "9dacf7dd0eef27a14eeb3a13": "2026-10-05"
+        "9dacf7dd0eef27a14eeb3a13": "2026-10-05",
+        "900bfde276ee225b87a6afc7": "2026-09-27",
+        "ace7ff68a22f49e4c193fb24": "2026-09-27",
+        "5624dc168c7024c278fabb8f": "2026-09-27",
+        "d0653b78046a6dedb37d23bd": "2026-09-27",
+        "ecf3eeadca93dffa62d40814": "2026-09-27"
       },
       "pending": {}
     }
