@@ -1,25 +1,14 @@
 {
-  "generated_at": "2026-09-28T09:23:10.682882+08:00",
+  "generated_at": "2026-09-28T15:17:24.570259+08:00",
   "cinemas": [
     {
       "id": "24311",
       "name": "西安万达影城（高新万达广场店）",
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
-      "updated_at": "2026-09-28T09:23:08.999823+08:00",
+      "updated_at": "2026-09-28T15:17:22.450338+08:00",
       "error": null,
       "slots": [
-        {
-          "key": "7fe293a1b45166589309a1b6",
-          "cinema_id": "24311",
-          "movie": "复仇者联盟4：终局之战（加码臻享版）",
-          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
-          "date": "2026-09-28",
-          "time": "12:00",
-          "start": "2026-09-28T12:00:00+08:00",
-          "duration": 186,
-          "bookable": true
-        },
         {
           "key": "5033f4ce8c68f37043f5d764",
           "cinema_id": "24311",
@@ -98,6 +87,50 @@
           "bookable": true
         },
         {
+          "key": "9376facd8e6bad0d9e30a3f6",
+          "cinema_id": "24311",
+          "movie": "复仇者联盟4：终局之战（加码臻享版）",
+          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
+          "date": "2026-09-30",
+          "time": "11:40",
+          "start": "2026-09-30T11:40:00+08:00",
+          "duration": 186,
+          "bookable": true
+        },
+        {
+          "key": "099b4f67bfe926333d351e47",
+          "cinema_id": "24311",
+          "movie": "野兽之心",
+          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
+          "date": "2026-09-30",
+          "time": "15:10",
+          "start": "2026-09-30T15:10:00+08:00",
+          "duration": 102,
+          "bookable": true
+        },
+        {
+          "key": "311c1898f4c7eda5bd951677",
+          "cinema_id": "24311",
+          "movie": "野兽之心",
+          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
+          "date": "2026-09-30",
+          "time": "17:10",
+          "start": "2026-09-30T17:10:00+08:00",
+          "duration": 102,
+          "bookable": true
+        },
+        {
+          "key": "05b8961036c936db01f3ffbe",
+          "cinema_id": "24311",
+          "movie": "野兽之心",
+          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
+          "date": "2026-09-30",
+          "time": "19:10",
+          "start": "2026-09-30T19:10:00+08:00",
+          "duration": 102,
+          "bookable": true
+        },
+        {
           "key": "eeaf090af9cc1eeb5f3ee833",
           "cinema_id": "24311",
           "movie": "复仇者联盟4：终局之战（加码臻享版）",
@@ -126,20 +159,9 @@
       "name": "寰映影城（西安荟聚激光IMAX店）",
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
-      "updated_at": "2026-09-28T09:23:10.681807+08:00",
+      "updated_at": "2026-09-28T15:17:24.569425+08:00",
       "error": null,
       "slots": [
-        {
-          "key": "aacb65f29ebe6ed1c1f22ceb",
-          "cinema_id": "39869",
-          "movie": "复仇者联盟4：终局之战（加码臻享版）",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-09-28",
-          "time": "12:25",
-          "start": "2026-09-28T12:25:00+08:00",
-          "duration": 186,
-          "bookable": true
-        },
         {
           "key": "003584e2fca3ad70407b9e1b",
           "cinema_id": "39869",
