@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-01T21:42:48.166151+08:00",
+  "generated_at": "2026-10-02T03:15:07.531554+08:00",
   "cinemas": [
     {
       "id": "24311",
       "name": "西安万达影城（高新万达广场店）",
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
-      "updated_at": "2026-10-01T21:42:46.542448+08:00",
+      "updated_at": "2026-10-02T03:15:05.839228+08:00",
       "error": null,
       "slots": [
         {
@@ -214,20 +214,9 @@
       "name": "寰映影城（西安荟聚激光IMAX店）",
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
-      "updated_at": "2026-10-01T21:42:48.165211+08:00",
+      "updated_at": "2026-10-02T03:15:07.530609+08:00",
       "error": null,
       "slots": [
-        {
-          "key": "c5d45cda141a70c26c54820e",
-          "cinema_id": "39869",
-          "movie": "奥德赛",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-01",
-          "time": "23:05",
-          "start": "2026-10-01T23:05:00+08:00",
-          "duration": 172,
-          "bookable": true
-        },
         {
           "key": "00709bd29cf46238890eaf71",
           "cinema_id": "39869",
