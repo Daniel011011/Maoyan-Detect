@@ -1,25 +1,14 @@
 {
-  "generated_at": "2026-10-03T22:33:10.046342+08:00",
+  "generated_at": "2026-10-04T02:32:05.265282+08:00",
   "cinemas": [
     {
       "id": "24311",
       "name": "西安万达影城（高新万达广场店）",
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
-      "updated_at": "2026-10-03T22:33:08.509037+08:00",
+      "updated_at": "2026-10-04T02:32:03.636035+08:00",
       "error": null,
       "slots": [
-        {
-          "key": "8a34dcffb4ec4c0d4cf9a457",
-          "cinema_id": "24311",
-          "movie": "野兽之心",
-          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
-          "date": "2026-10-03",
-          "time": "23:05",
-          "start": "2026-10-03T23:05:00+08:00",
-          "duration": 102,
-          "bookable": true
-        },
         {
           "key": "cdce92f2bfc92c46a784f97c",
           "cinema_id": "24311",
@@ -148,7 +137,7 @@
       "name": "寰映影城（西安荟聚激光IMAX店）",
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
-      "updated_at": "2026-10-03T22:33:10.045486+08:00",
+      "updated_at": "2026-10-04T02:32:05.264429+08:00",
       "error": null,
       "slots": [
         {
