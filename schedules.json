@@ -1,25 +1,14 @@
 {
-  "generated_at": "2026-10-07T19:14:24.017244+08:00",
+  "generated_at": "2026-10-08T01:54:05.169413+08:00",
   "cinemas": [
     {
       "id": "24311",
       "name": "西安万达影城（高新万达广场店）",
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
-      "updated_at": "2026-10-07T19:14:22.481118+08:00",
+      "updated_at": "2026-10-08T01:54:03.508203+08:00",
       "error": null,
       "slots": [
-        {
-          "key": "b8182034168d25f772b31235",
-          "cinema_id": "24311",
-          "movie": "复仇者联盟4：终局之战（加码臻享版）",
-          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
-          "date": "2026-10-07",
-          "time": "22:20",
-          "start": "2026-10-07T22:20:00+08:00",
-          "duration": 186,
-          "bookable": true
-        },
         {
           "key": "15fb91ba1f17dc20686cb688",
           "cinema_id": "24311",
@@ -60,42 +49,9 @@
       "name": "寰映影城（西安荟聚激光IMAX店）",
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
-      "updated_at": "2026-10-07T19:14:24.016482+08:00",
+      "updated_at": "2026-10-08T01:54:05.168582+08:00",
       "error": null,
       "slots": [
-        {
-          "key": "51369d754bace3f261512b91",
-          "cinema_id": "39869",
-          "movie": "生化危机：爆发夜",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-07",
-          "time": "20:05",
-          "start": "2026-10-07T20:05:00+08:00",
-          "duration": 94,
-          "bookable": true
-        },
-        {
-          "key": "6d9f950ad94cabdd140ca244",
-          "cinema_id": "39869",
-          "movie": "生化危机：爆发夜",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-07",
-          "time": "21:55",
-          "start": "2026-10-07T21:55:00+08:00",
-          "duration": 94,
-          "bookable": true
-        },
-        {
-          "key": "9913a93f83dbb18a1154b5d9",
-          "cinema_id": "39869",
-          "movie": "生化危机：爆发夜",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-07",
-          "time": "23:45",
-          "start": "2026-10-07T23:45:00+08:00",
-          "duration": 94,
-          "bookable": true
-        },
         {
           "key": "649b3461732a767d4138dd30",
           "cinema_id": "39869",
