@@ -4,39 +4,6 @@
     "24311": {
       "slots": [
         {
-          "key": "ae928ec08dad5fb850d0d378",
-          "cinema_id": "24311",
-          "movie": "奥德赛",
-          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
-          "date": "2026-10-07",
-          "time": "12:35",
-          "start": "2026-10-07T12:35:00+08:00",
-          "duration": 172,
-          "bookable": true
-        },
-        {
-          "key": "ecb6e1564fea26ecd1863085",
-          "cinema_id": "24311",
-          "movie": "复仇者联盟4：终局之战（加码臻享版）",
-          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
-          "date": "2026-10-07",
-          "time": "15:45",
-          "start": "2026-10-07T15:45:00+08:00",
-          "duration": 186,
-          "bookable": true
-        },
-        {
-          "key": "88b17979bfa150137364df27",
-          "cinema_id": "24311",
-          "movie": "奥德赛",
-          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
-          "date": "2026-10-07",
-          "time": "19:10",
-          "start": "2026-10-07T19:10:00+08:00",
-          "duration": 172,
-          "bookable": true
-        },
-        {
           "key": "b8182034168d25f772b31235",
           "cinema_id": "24311",
           "movie": "复仇者联盟4：终局之战（加码臻享版）",
@@ -81,7 +48,7 @@
           "bookable": true
         }
       ],
-      "updated_at": "2026-10-07T12:10:40.882647+08:00",
+      "updated_at": "2026-10-07T19:14:22.481118+08:00",
       "error": null,
       "seen": {
         "3cdf51a985970ef73b7133b0": "2026-10-07",
@@ -97,28 +64,6 @@
     },
     "39869": {
       "slots": [
-        {
-          "key": "abf2b977f11e2f045f03b6bf",
-          "cinema_id": "39869",
-          "movie": "生化危机：爆发夜",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-07",
-          "time": "15:05",
-          "start": "2026-10-07T15:05:00+08:00",
-          "duration": 94,
-          "bookable": true
-        },
-        {
-          "key": "25cc4cb57e1203d5d797f8f7",
-          "cinema_id": "39869",
-          "movie": "奥德赛",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-07",
-          "time": "16:55",
-          "start": "2026-10-07T16:55:00+08:00",
-          "duration": 172,
-          "bookable": true
-        },
         {
           "key": "51369d754bace3f261512b91",
           "cinema_id": "39869",
@@ -217,9 +162,86 @@
           "start": "2026-10-08T23:10:00+08:00",
           "duration": 94,
           "bookable": true
+        },
+        {
+          "key": "dc17ba192daf25ef2705cdf3",
+          "cinema_id": "39869",
+          "movie": "生化危机：爆发夜",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-10-09",
+          "time": "10:40",
+          "start": "2026-10-09T10:40:00+08:00",
+          "duration": 94,
+          "bookable": true
+        },
+        {
+          "key": "dd454c52681b661b2231d2af",
+          "cinema_id": "39869",
+          "movie": "生化危机：爆发夜",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-10-09",
+          "time": "12:30",
+          "start": "2026-10-09T12:30:00+08:00",
+          "duration": 94,
+          "bookable": true
+        },
+        {
+          "key": "aed68ab2a7b374fb136a1914",
+          "cinema_id": "39869",
+          "movie": "奥德赛",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-10-09",
+          "time": "14:20",
+          "start": "2026-10-09T14:20:00+08:00",
+          "duration": 172,
+          "bookable": true
+        },
+        {
+          "key": "7d4aa31757c4e76bc7cdd658",
+          "cinema_id": "39869",
+          "movie": "生化危机：爆发夜",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-10-09",
+          "time": "17:30",
+          "start": "2026-10-09T17:30:00+08:00",
+          "duration": 94,
+          "bookable": true
+        },
+        {
+          "key": "604635458b54a9cc913b504e",
+          "cinema_id": "39869",
+          "movie": "生化危机：爆发夜",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-10-09",
+          "time": "19:20",
+          "start": "2026-10-09T19:20:00+08:00",
+          "duration": 94,
+          "bookable": true
+        },
+        {
+          "key": "3c9a0885fe06f60bb69c40ed",
+          "cinema_id": "39869",
+          "movie": "生化危机：爆发夜",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-10-09",
+          "time": "21:10",
+          "start": "2026-10-09T21:10:00+08:00",
+          "duration": 94,
+          "bookable": true
+        },
+        {
+          "key": "7b61379d5656dd4c48cc01c0",
+          "cinema_id": "39869",
+          "movie": "生化危机：爆发夜",
+          "hall": "激光IMAX-Cola厅-儿童需购票",
+          "date": "2026-10-09",
+          "time": "23:00",
+          "start": "2026-10-09T23:00:00+08:00",
+          "duration": 94,
+          "bookable": true
         }
       ],
-      "updated_at": "2026-10-07T12:10:42.408234+08:00",
+      "updated_at": "2026-10-07T19:14:24.016482+08:00",
       "error": null,
       "seen": {
         "ad1fd4fe3d1b2575af331d42": "2026-10-07",
@@ -234,7 +256,14 @@
         "93f856ec229c6e0cdfaff4a3": "2026-10-08",
         "dcb640b6d18f5cd617d2b9c9": "2026-10-08",
         "30e2dda8675c2fb6697da4b5": "2026-10-08",
-        "300caa81afd1e0320073c033": "2026-10-08"
+        "300caa81afd1e0320073c033": "2026-10-08",
+        "dc17ba192daf25ef2705cdf3": "2026-10-09",
+        "dd454c52681b661b2231d2af": "2026-10-09",
+        "aed68ab2a7b374fb136a1914": "2026-10-09",
+        "7d4aa31757c4e76bc7cdd658": "2026-10-09",
+        "604635458b54a9cc913b504e": "2026-10-09",
+        "3c9a0885fe06f60bb69c40ed": "2026-10-09",
+        "7b61379d5656dd4c48cc01c0": "2026-10-09"
       },
       "pending": {}
     }
