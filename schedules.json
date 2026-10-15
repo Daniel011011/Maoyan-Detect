@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-16T03:58:16.942514+08:00",
+  "generated_at": "2026-10-16T06:57:51.814162+08:00",
   "cinemas": [
     {
       "id": "24311",
       "name": "西安万达影城（高新万达广场店）",
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
-      "updated_at": "2026-10-16T03:58:15.246214+08:00",
+      "updated_at": "2026-10-16T06:57:50.012156+08:00",
       "error": null,
       "slots": [
         {
@@ -159,7 +159,7 @@
       "name": "寰映影城（西安荟聚激光IMAX店）",
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
-      "updated_at": "2026-10-16T03:58:16.941544+08:00",
+      "updated_at": "2026-10-16T06:57:51.813361+08:00",
       "error": null,
       "slots": [
         {
