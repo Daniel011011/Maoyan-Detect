@@ -4,17 +4,6 @@
     "24311": {
       "slots": [
         {
-          "key": "7a293201daaa8c487ed89a88",
-          "cinema_id": "24311",
-          "movie": "复仇者联盟4：终局之战（加码臻享版）",
-          "hall": "杜比影院厅（儿童需购票）-凭票享免费停车2H",
-          "date": "2026-10-17",
-          "time": "15:35",
-          "start": "2026-10-17T15:35:00+08:00",
-          "duration": 186,
-          "bookable": true
-        },
-        {
           "key": "2ead91bcb01edd64c07c3835",
           "cinema_id": "24311",
           "movie": "奥德赛",
@@ -92,7 +81,7 @@
           "bookable": true
         }
       ],
-      "updated_at": "2026-10-17T13:17:56.655058+08:00",
+      "updated_at": "2026-10-17T17:34:28.995394+08:00",
       "error": null,
       "seen": {
         "30d70df8f59e61b49432f636": "2026-10-18",
@@ -110,28 +99,6 @@
     },
     "39869": {
       "slots": [
-        {
-          "key": "fee86e97b1b20e489b694fce",
-          "cinema_id": "39869",
-          "movie": "三国第一部：争洛阳",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-17",
-          "time": "13:30",
-          "start": "2026-10-17T13:30:00+08:00",
-          "duration": 137,
-          "bookable": true
-        },
-        {
-          "key": "a08e90efe8ba70c615be4e15",
-          "cinema_id": "39869",
-          "movie": "生化危机：爆发夜",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-17",
-          "time": "16:05",
-          "start": "2026-10-17T16:05:00+08:00",
-          "duration": 94,
-          "bookable": true
-        },
         {
           "key": "24e28dd55a7107a3e76598a0",
           "cinema_id": "39869",
@@ -309,7 +276,7 @@
           "bookable": true
         }
       ],
-      "updated_at": "2026-10-17T13:17:58.450487+08:00",
+      "updated_at": "2026-10-17T17:34:30.492712+08:00",
       "error": null,
       "seen": {
         "2b1f1f73fbb906049136dae5": "2026-10-17",
