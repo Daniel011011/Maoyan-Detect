@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-23T08:47:49.517298+08:00",
+  "generated_at": "2026-10-23T13:42:34.637953+08:00",
   "cinemas": [
     {
       "id": "24311",
       "name": "西安万达影城（高新万达广场店）",
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
-      "updated_at": "2026-10-23T08:47:47.816021+08:00",
+      "updated_at": "2026-10-23T13:42:32.997943+08:00",
       "error": null,
       "slots": [
         {
@@ -159,20 +159,9 @@
       "name": "寰映影城（西安荟聚激光IMAX店）",
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
-      "updated_at": "2026-10-23T08:47:49.516408+08:00",
+      "updated_at": "2026-10-23T13:42:34.637095+08:00",
       "error": null,
       "slots": [
-        {
-          "key": "fa1780db5ebf76c88cce2926",
-          "cinema_id": "39869",
-          "movie": "复仇者联盟4：终局之战（加码臻享版）",
-          "hall": "激光IMAX-Cola厅-儿童需购票",
-          "date": "2026-10-23",
-          "time": "10:45",
-          "start": "2026-10-23T10:45:00+08:00",
-          "duration": 186,
-          "bookable": true
-        },
         {
           "key": "6debf3710727a3aef46f7c33",
           "cinema_id": "39869",
