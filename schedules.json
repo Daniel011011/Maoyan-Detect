@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T11:52:44.677484+08:00",
+  "generated_at": "2026-10-28T18:19:36.620452+08:00",
   "cinemas": [
     {
       "id": "24311",
       "name": "西安万达影城（高新万达广场店）",
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
-      "updated_at": "2026-10-28T11:52:43.036980+08:00",
+      "updated_at": "2026-10-28T18:19:34.874885+08:00",
       "error": null,
       "slots": [
         {
@@ -30,6 +30,39 @@
           "start": "2026-10-29T19:00:00+08:00",
           "duration": 172,
           "bookable": true
+        },
+        {
+          "key": "508b27527f46c022885b2205",
+          "cinema_id": "24311",
+          "movie": "神探之痕迹",
+          "hall": "杜比影院(4K)",
+          "date": "2026-10-30",
+          "time": "16:45",
+          "start": "2026-10-30T16:45:00+08:00",
+          "duration": 140,
+          "bookable": true
+        },
+        {
+          "key": "e5a84a6c80604c141e8a4a48",
+          "cinema_id": "24311",
+          "movie": "神探之痕迹",
+          "hall": "杜比影院(4K)",
+          "date": "2026-10-30",
+          "time": "19:20",
+          "start": "2026-10-30T19:20:00+08:00",
+          "duration": 140,
+          "bookable": true
+        },
+        {
+          "key": "6326b7be18e7064478e85772",
+          "cinema_id": "24311",
+          "movie": "神探之痕迹",
+          "hall": "杜比影院(4K)",
+          "date": "2026-10-30",
+          "time": "22:00",
+          "start": "2026-10-30T22:00:00+08:00",
+          "duration": 140,
+          "bookable": true
         }
       ]
     },
@@ -38,31 +71,9 @@
       "name": "寰映影城（西安荟聚激光IMAX店）",
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
-      "updated_at": "2026-10-28T11:52:44.676661+08:00",
+      "updated_at": "2026-10-28T18:19:36.538841+08:00",
       "error": null,
       "slots": [
-        {
-          "key": "593a3c407975c1c76b7a5d2b",
-          "cinema_id": "39869",
-          "movie": "奥德赛",
-          "hall": "IMAX COLA厅(激光)",
-          "date": "2026-10-28",
-          "time": "14:25",
-          "start": "2026-10-28T14:25:00+08:00",
-          "duration": 172,
-          "bookable": true
-        },
-        {
-          "key": "b4efc3ea8d8e3695d8ea7f39",
-          "cinema_id": "39869",
-          "movie": "生化危机：爆发夜",
-          "hall": "IMAX COLA厅(激光)",
-          "date": "2026-10-28",
-          "time": "17:35",
-          "start": "2026-10-28T17:35:00+08:00",
-          "duration": 94,
-          "bookable": true
-        },
         {
           "key": "f7e9e4a732faf7d23e1666be",
           "cinema_id": "39869",
@@ -174,14 +185,25 @@
           "bookable": true
         },
         {
-          "key": "9b1530bed23b05925812dd56",
+          "key": "ac6e6c1c7f6c641ddf194bf9",
           "cinema_id": "39869",
           "movie": "接近终点 4K",
           "hall": "IMAX COLA厅(激光)",
-          "date": "2026-11-08",
-          "time": "14:00",
-          "start": "2026-11-08T14:00:00+08:00",
+          "date": "2026-11-22",
+          "time": "15:30",
+          "start": "2026-11-22T15:30:00+08:00",
           "duration": 114,
+          "bookable": true
+        },
+        {
+          "key": "998a3b851a3de035736e0c38",
+          "cinema_id": "39869",
+          "movie": "狗镇 4K",
+          "hall": "IMAX COLA厅(激光)",
+          "date": "2026-11-28",
+          "time": "16:00",
+          "start": "2026-11-28T16:00:00+08:00",
+          "duration": 178,
           "bookable": true
         }
       ]
