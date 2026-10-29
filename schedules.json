@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:26:57.884952+08:00",
+  "generated_at": "2026-10-29T22:35:48.996816+08:00",
   "cinemas": [
     {
       "id": "24311",
@@ -7,19 +7,8 @@
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
       "updated_at": "2026-10-29T15:26:56.349724+08:00",
-      "error": null,
+      "error": "排片更新失败（URLError），保留上次成功数据",
       "slots": [
-        {
-          "key": "40dddc7a0c8662537be24c59",
-          "cinema_id": "24311",
-          "movie": "奥德赛",
-          "hall": "杜比影院(4K)",
-          "date": "2026-10-29",
-          "time": "19:00",
-          "start": "2026-10-29T19:00:00+08:00",
-          "duration": 172,
-          "bookable": true
-        },
         {
           "key": "508b27527f46c022885b2205",
           "cinema_id": "24311",
@@ -116,30 +105,8 @@
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
       "updated_at": "2026-10-29T15:26:57.884147+08:00",
-      "error": null,
+      "error": "排片更新失败（URLError），保留上次成功数据",
       "slots": [
-        {
-          "key": "0bc516a728c2379c11e32987",
-          "cinema_id": "39869",
-          "movie": "生化危机：爆发夜",
-          "hall": "IMAX COLA厅(激光)",
-          "date": "2026-10-29",
-          "time": "17:35",
-          "start": "2026-10-29T17:35:00+08:00",
-          "duration": 94,
-          "bookable": true
-        },
-        {
-          "key": "e98a52d5e3d0b11dae5ac21a",
-          "cinema_id": "39869",
-          "movie": "奥德赛",
-          "hall": "IMAX COLA厅(激光)",
-          "date": "2026-10-29",
-          "time": "19:30",
-          "start": "2026-10-29T19:30:00+08:00",
-          "duration": 172,
-          "bookable": true
-        },
         {
           "key": "eb12694f978f1aaecccaaf6f",
           "cinema_id": "39869",
