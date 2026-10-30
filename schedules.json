@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:04:46.870613+08:00",
+  "generated_at": "2026-10-30T14:11:48.830038+08:00",
   "cinemas": [
     {
       "id": "24311",
@@ -7,7 +7,7 @@
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
       "updated_at": "2026-10-30T08:04:21.693837+08:00",
-      "error": null,
+      "error": "排片更新失败（URLError），保留上次成功数据",
       "slots": [
         {
           "key": "299e4accff3ec7198616d8ae",
@@ -107,17 +107,6 @@
       "updated_at": "2026-10-30T04:02:55.311243+08:00",
       "error": "排片更新失败（URLError），保留上次成功数据",
       "slots": [
-        {
-          "key": "3455eefa31deb0ae994a6c56",
-          "cinema_id": "39869",
-          "movie": "生化危机：爆发夜",
-          "hall": "IMAX COLA厅(激光)-儿童需购票",
-          "date": "2026-10-30",
-          "time": "13:50",
-          "start": "2026-10-30T13:50:00+08:00",
-          "duration": 94,
-          "bookable": true
-        },
         {
           "key": "8141b40ebec98e630fdd1c76",
           "cinema_id": "39869",
