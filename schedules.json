@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-30T14:11:48.830038+08:00",
+  "generated_at": "2026-10-30T14:19:24.464314+08:00",
   "cinemas": [
     {
       "id": "24311",
       "name": "西安万达影城（高新万达广场店）",
       "format": "杜比影院",
       "url": "https://www.maoyan.com/cinema/24311",
-      "updated_at": "2026-10-30T08:04:21.693837+08:00",
-      "error": "排片更新失败（URLError），保留上次成功数据",
+      "updated_at": "2026-10-30T14:19:22.191060+08:00",
+      "error": null,
       "slots": [
         {
           "key": "299e4accff3ec7198616d8ae",
@@ -96,6 +96,50 @@
           "start": "2026-10-31T22:10:00+08:00",
           "duration": 140,
           "bookable": true
+        },
+        {
+          "key": "5aee2d481d6d9295eb78c290",
+          "cinema_id": "24311",
+          "movie": "奥德赛",
+          "hall": "杜比影院(4K)-儿童需购票",
+          "date": "2026-11-01",
+          "time": "10:20",
+          "start": "2026-11-01T10:20:00+08:00",
+          "duration": 172,
+          "bookable": true
+        },
+        {
+          "key": "d2170338581835ba0993736e",
+          "cinema_id": "24311",
+          "movie": "奥德赛",
+          "hall": "杜比影院(4K)-儿童需购票",
+          "date": "2026-11-01",
+          "time": "13:30",
+          "start": "2026-11-01T13:30:00+08:00",
+          "duration": 172,
+          "bookable": true
+        },
+        {
+          "key": "0a657d2dd02d38ad148b412e",
+          "cinema_id": "24311",
+          "movie": "奥德赛",
+          "hall": "杜比影院(4K)-儿童需购票",
+          "date": "2026-11-01",
+          "time": "16:40",
+          "start": "2026-11-01T16:40:00+08:00",
+          "duration": 172,
+          "bookable": true
+        },
+        {
+          "key": "6ea3f13711aaab2c321614ef",
+          "cinema_id": "24311",
+          "movie": "奥德赛",
+          "hall": "杜比影院(4K)-儿童需购票",
+          "date": "2026-11-01",
+          "time": "19:55",
+          "start": "2026-11-01T19:55:00+08:00",
+          "duration": 172,
+          "bookable": true
         }
       ]
     },
@@ -104,8 +148,8 @@
       "name": "寰映影城（西安荟聚激光IMAX店）",
       "format": "激光 IMAX",
       "url": "https://www.maoyan.com/cinema/39869",
-      "updated_at": "2026-10-30T04:02:55.311243+08:00",
-      "error": "排片更新失败（URLError），保留上次成功数据",
+      "updated_at": "2026-10-30T14:19:24.463483+08:00",
+      "error": null,
       "slots": [
         {
           "key": "8141b40ebec98e630fdd1c76",
